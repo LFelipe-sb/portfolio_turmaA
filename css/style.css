@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../img/bg-desktop.jpg") no-repeat top center/cover;
+    height: 100vh;
+}
+
+body * {
+    color: white;
+}
+
+p {
+    font-family:"Londrina Sketch", sans-serif;
+}
+
 a {
     text-decoration: none;
 }
+
