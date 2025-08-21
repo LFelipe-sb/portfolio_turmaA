@@ -1,61 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Portfólio</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="perfil">
-                <img src="img/avatar1.jfif" alt="Foto de um homem negro, com barba, usando uma camisa vermelha, terno preto e uma parede vermelha ao fundo.">
-                <p>@Luis.Felipe 🚀</p>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          class="profile-photo"
+          src="./assets/avatar1.jfif"
+          alt="Foto de homem terno preto e camisa vermelha, barba e fundo vermelho."
+        />
+        <p>@Luis.Felipe</p>
+      </div>
 
-            <ul>
-                <li>
-                    <a href="">Um pouco mais sobre mim</a>
-                </li>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
 
-                <li>
-                    <a href="">Baixar curriculo</a>
-                </li>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/lfelipe-sb/" target="_blank">Um pouco mais sobre mim</a>
+        </li>
 
-                <li>
-                    <a href="">Ver meu portfólio</a>
-                </li>
+        <li>
+          <a href="CV_Luis_Felipe_dos_Santos_Barbosa.pdf" download>Baixar curriculo</a>
+        </li>
 
-                <li>
-                    <a href="">Projetos realizados</a>
-                </li>
-            </ul>
+        <li>
+          <a href="https://github.com/LFelipe-sb/">Ver meu portfólio</a>
+        </li>
 
+        <li>
+          <a href="#">
+            Projetos Realizados
+          </a>
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/LFelipe-sb/" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
 
-            <div>
-                <a href="">
-                    <ion-icon name="logo-github"></ion-icon>
-                </a>
+        <a href="https://www.instagram.com/lfelipez1/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
 
-                <a href="">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </a>
+        <a href="https://youtube.com/" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
 
-                <a href="">
-                    <ion-icon name="logo-youtube"></ion-icon>
-                </a>
+        <a href="https://www.linkedin.com/in/lfelipe-sb/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
 
-                <a href="">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-            </div>
+      <footer>
+        Feito com ♥ junto com os alunos da <a href="https://www.etecdeembu.com.br/">Etec de Embu</a>
+      </footer>
+    </div>
 
-            <footer>
-                Feito com o ❤ junto com os alunos da <a href="">Etec de Embu</a>
-            </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
-        </div>
-
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    </body>
+    <script src="./script.js"></script>
+  </body>
 </html>
